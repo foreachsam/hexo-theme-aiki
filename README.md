@@ -1,4 +1,3 @@
-hexo-theme-aiki
-===============
+# hexo-theme-aiki
 
 hexo-theme-aiki
