@@ -48,6 +48,12 @@
 	}
 	image_src = config.url + '/' + image_src;
 
+	var rss = theme.rss;
+	if (!rss) {
+		rss = '/atom.xml';
+	}
+	rss = config.url + '/' + rss;
+
 	var canonical = url_for(path);
 	if (is_home()) {
 		canonical = url_for(config.root);
@@ -88,7 +94,7 @@
 <%
 	if (theme.rss) {
 %>
-	<link href="<%= theme.rss %>" title="<%= config.title %>" type="application/atom+xml" rel="alternative">
+	<link href="<%= rss %>" title="<%= config.title %>" type="application/atom+xml" rel="alternative">
 <%
 	}
 %>

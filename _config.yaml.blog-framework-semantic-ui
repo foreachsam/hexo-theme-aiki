@@ -32,3 +32,5 @@ menu:
 #list_block_type: conbine
 
 #google_analytics: test
+
+rss: atom.xml
