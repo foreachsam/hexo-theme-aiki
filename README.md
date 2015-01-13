@@ -5,4 +5,4 @@ hexo-theme-aiki is the [theme](https://github.com/hexojs/hexo/wiki/Themes) for [
 # Demo
 
 * [Semantic Ui Explore](http://foreachsam.github.io/blog-framework-semantic-ui/)
-* [Windwalker](http://foreachsam.github.io/blog-framework-windwalker/)
+* [Windwalker Explore](http://foreachsam.github.io/blog-framework-windwalker/)
